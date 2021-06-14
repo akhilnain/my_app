@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/roundlayout"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity.LoginActivityStudent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/enter_your_collage_id"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:startIconDrawable="@drawable/student"
+            app:startIconTint="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+
+        android:id="@+id/userId"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/enter_password"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/white"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/black"
+            app:startIconDrawable="@drawable/lock_icon"
+            app:startIconTint="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/userPassword"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+          </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btLogin"
+        style="@style/Login_activity_style"
+
+        android:text="@string/login" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alert_message_student_login_activity"
+        android:textColor="#FF1100"
+        style="@style/Login_activity_style"/>
+
+    <Button
+        android:id="@+id/btSignup"
+        style="@style/Login_activity_style"
+
+        android:text="@string/signup" />
+</LinearLayout>

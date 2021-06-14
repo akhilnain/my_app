@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_home_student2">
+
+        <item android:title="@string/assignment_upload"
+            android:id="@+id/assignment_upload"/>
+
+        <item android:title="@string/my_attendance"
+            android:id="@+id/my_attendance"/>
+
+        <item android:title="@string/my_timetable"
+            android:id="@+id/my_timetable"/>
+
+        <item android:title="@string/scheme_syllabus"
+            android:id="@+id/my_scheme_syllabus"/>
+
+        <item android:title="@string/student_leave_application"
+            android:id="@+id/student_leave_application"/>
+
+        <item android:title="@string/class_home_work"
+            android:id="@+id/class_home_work"/>
+
+        <item android:title="@string/teacher_work_report"
+            android:id="@+id/teacher_work_report"/>
+
+        <item android:title="@string/student_work_report"
+            android:id="@+id/student_work_report"/>
+        <item android:title="@string/study_material"
+            android:id="@+id/study_material"/>
+
+</menu>

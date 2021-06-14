@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DigiCollege</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="admin">Admin</string>
+    <string name="login">Login</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="signup">SignUp</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_collage_id">Enter Your College Id</string>
+    <string name="assignment_upload">Assignment Upload</string>
+    <string name="my_attendance">My Attendance</string>
+    <string name="my_timetable">My TimeTable</string>
+    <string name="scheme_syllabus">Scheme and Syllabus</string>
+    <string name="student_leave_application">Student Leave Application</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="home_screen">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="class_home_work">Class Home Work</string>
+    <string name="student_work_report">Student Work Report</string>
+    <string name="teacher_work_report">Teacher Work Report</string>
+    <string name="study_material">Study Material</string>
+    <string-array name="Spinner_entries">
+        <item>Choose any Subject</item>
+        <item>ACA</item>
+        <item>ULP</item>
+        <item>CN</item>
+        <item>CD</item>
+        <item>SSIC</item>
+    </string-array>
+</resources>
